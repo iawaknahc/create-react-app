@@ -183,6 +183,7 @@ module.exports = {
                 options: {
                   modules: true,
                   importLoaders: 2,
+                  localIdentName: '[path]__[name]___[local]',
                 },
               },
               {
